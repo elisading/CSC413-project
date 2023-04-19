@@ -1,0 +1,40 @@
+{
+    "gracebwu--amazon-toys": {
+        "description": "",
+        "citation": "",
+        "homepage": "",
+        "license": "",
+        "features": {
+            "image": {
+                "decode": true,
+                "id": null,
+                "_type": "Image"
+            },
+            "text": {
+                "dtype": "string",
+                "id": null,
+                "_type": "Value"
+            }
+        },
+        "post_processed": null,
+        "supervised_keys": null,
+        "task_templates": null,
+        "builder_name": "imagefolder",
+        "config_name": "toy",
+        "version": {
+            "version_str": "0.0.0",
+            "description": null,
+            "major": 0,
+            "minor": 0,
+            "patch": 0
+        },
+        "splits": {
+            "train": {
+                "name": "train",
+                "num_bytes": 3942366,
+                "num_examples": 2365860,
+                "dataset_name": "amazon_toys"
+            }
+        }
+    }
+}
